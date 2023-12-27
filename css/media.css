@@ -1,0 +1,51 @@
+@media screen and (max-width: 992px){
+.container{max-width: 720px;}
+.nav .container{
+    align-items: flex-start;
+    flex-direction: column;
+}
+.nav .container ul{
+    flex-direction: column;
+}
+.home_content .home_content1{
+    width: 100%;
+}
+.home_content .picture{
+    width: 100%;       
+}
+.chefs_cards .card{
+    width: 75%;
+}
+.gallery_photos{
+    display: flex;
+   flex-wrap: wrap;
+   }
+ footer .about{
+    width: 100%;
+}
+footer .subscription{
+    width: 100%;
+}
+.contact-details{
+    width: 100%;
+}
+}
+
+
+
+
+@media screen and (max-width: 1200px){
+
+footer .about{
+    width: 45%;
+}
+footer .subscription{
+    width: 45%;
+}
+.contact-details{
+    width: 45%;
+}
+}
+
+
+    
